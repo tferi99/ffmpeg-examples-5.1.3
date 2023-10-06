@@ -27,6 +27,10 @@ pkg_check_modules(LIBAV REQUIRED IMPORTED_TARGET
 # Add source to this project's executable.
 add_executable (cmake-simple "cmake-simple.cpp" "cmake-simple.h")
 add_executable (decode_audio "decode_audio.c")
+add_executable (decode_audio_ext "decode_audio_ext.c")
+add_executable (transcoding "transcoding.c")
 
 # NOTE: 'm' means linking with the math library (libm)
 target_link_libraries(decode_audio PRIVATE ${LIBRARIES_FOR_LINK})
+target_link_libraries(decode_audio_ext PRIVATE ${LIBRARIES_FOR_LINK})
+target_link_libraries(transcoding PRIVATE ${LIBRARIES_FOR_LINK})

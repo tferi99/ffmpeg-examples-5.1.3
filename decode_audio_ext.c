@@ -21,10 +21,10 @@
  */
 
 /**
- * @file
- * Audio decoding from MP2 file into raw file with libavcodec API example.
- * It prints instruction how to play output file.
- *
+  * @file
+ * Extended version of decode_audio.c 
+ * to decode from any supported file to AVI with libavcodec API example
+ * 
  * @example decode_audio.c
  */
 
