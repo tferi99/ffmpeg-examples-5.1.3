@@ -236,7 +236,6 @@ static int open_output_file(const char *filename)
         av_log(NULL, AV_LOG_ERROR, "Error occurred when opening output file\n");
         return ret;
     }
-
     return 0;
 }
 
