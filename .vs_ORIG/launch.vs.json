@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "cppgdb",
+      "name": "transcoding",
+      "project": "CMakeLists.txt",
+      "projectTarget": "transcoding",
+      "comment": "Learn how to configure remote debugging. For more info, see http://aka.ms/vslinuxdebug",
+      "debuggerConfiguration": "gdb",
+      "MIMode": "gdb",
+      "args": [
+        "/root/media/easy30-ulaw.wav",
+        "/root/media/out.wav"
+      ],
+      "env": {}
+    }
+  ]
+}
